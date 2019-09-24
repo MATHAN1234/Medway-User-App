@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
+    tools:context="com.example.matha.medwayfinal.Firstaids">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Injury"
+        android:textStyle="bold"
+        android:textColor="#228B22"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:paddingLeft="70dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asthma"
+        android:id="@+id/r1"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bleeding"
+        android:id="@+id/r2"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r1"
+        android:layout_alignLeft="@+id/r1"
+        android:layout_alignStart="@+id/r1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bones and Muscles"
+        android:id="@+id/r3"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r2"
+        android:layout_alignLeft="@+id/r2"
+        android:layout_alignStart="@+id/r2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burns"
+        android:id="@+id/r4"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r3"
+        android:layout_alignLeft="@+id/r3"
+        android:layout_alignStart="@+id/r3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chest Pain"
+        android:id="@+id/r5"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r4"
+        android:layout_alignLeft="@+id/r4"
+        android:layout_alignStart="@+id/r4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choking"
+        android:id="@+id/r6"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r5"
+        android:layout_alignLeft="@+id/r5"
+        android:layout_alignStart="@+id/r5" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fracture"
+        android:id="@+id/r7"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r6"
+        android:layout_alignLeft="@+id/r6"
+        android:layout_alignStart="@+id/r6" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dog Bite"
+        android:id="@+id/r8"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r7"
+        android:layout_alignLeft="@+id/r7"
+        android:layout_alignStart="@+id/r7" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Head Injury"
+        android:id="@+id/r9"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r8"
+        android:layout_alignLeft="@+id/r8"
+        android:layout_alignStart="@+id/r8" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heat Stroke"
+        android:id="@+id/r10"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r9"
+        android:layout_alignLeft="@+id/r9"
+        android:layout_alignStart="@+id/r9" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insect Bites and Stings"
+        android:id="@+id/r11"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r10"
+        android:layout_alignLeft="@+id/r10"
+        android:layout_alignStart="@+id/r10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Knee Injury"
+        android:id="@+id/r12"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r11"
+        android:layout_alignLeft="@+id/r11"
+        android:layout_alignStart="@+id/r11" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Muscle Strain"
+        android:id="@+id/r13"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r12"
+        android:layout_alignLeft="@+id/r12"
+        android:layout_alignStart="@+id/r12" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nail Injuries"
+        android:id="@+id/r14"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r13"
+        android:layout_alignLeft="@+id/r12"
+        android:layout_alignStart="@+id/r12" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poison"
+        android:id="@+id/r15"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r14"
+        android:layout_alignLeft="@+id/r14"
+        android:layout_alignStart="@+id/r14" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resuscitation"
+        android:id="@+id/r16"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r15"
+        android:layout_alignLeft="@+id/r15"
+        android:layout_alignStart="@+id/r15" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shock"
+        android:id="@+id/r17"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r16"
+        android:layout_alignLeft="@+id/r16"
+        android:layout_alignStart="@+id/r16" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skin"
+        android:id="@+id/r18"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r17"
+        android:layout_alignLeft="@+id/r17"
+        android:layout_alignStart="@+id/r17" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soreness after exercises"
+        android:id="@+id/r19"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r18"
+        android:layout_alignLeft="@+id/r18"
+        android:layout_alignStart="@+id/r18" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drowning"
+        android:id="@+id/r20"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/r19"
+        android:layout_alignLeft="@+id/r19"
+        android:layout_alignStart="@+id/r19" />
+
+    </LinearLayout>
+
+</ScrollView>
